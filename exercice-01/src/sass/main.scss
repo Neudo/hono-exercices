@@ -1,0 +1,84 @@
+// Variables
+@import "variables";
+
+body {
+  background-color: $background-color;
+
+  font-family: degular, sans-serif;
+  font-weight: 500;
+  font-style: normal;
+}
+
+.frame-1 {
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+.star-1 {
+  position: absolute;
+  top: 30px;
+  right: 30px;
+}
+
+.star-2 {
+  position: absolute;
+  top: 285px;
+  left: 400px;
+  z-index: -1;
+}
+
+.star-3 {
+  position: absolute;
+  top: 450px;
+  right: 400px;
+}
+
+.main-content {
+  display: flex;
+  flex-direction: column;
+  width: 51%;
+  margin: 9% auto;
+  align-items: center;
+
+  img {
+    width: 25%;
+    padding-bottom: 60px;
+  }
+
+  h1 {
+    font-family: degular-display, sans-serif;
+    font-weight: 600;
+    font-size: 60px;
+    font-style: normal;
+    color: $light-blue;
+    text-align: center;
+  }
+}
+
+.want-to-talk {
+  color: $white;
+  background-color: $light-orange;
+  font-size: 40px;
+  width: 33%;
+  margin: -60px auto;
+  padding: 30px;
+  transform: rotate(-3deg);
+}
+
+.dark-orange {
+  position: relative;
+  width: 38%;
+  height: 100px;
+  background: $dark-orange;
+  margin: auto;
+  z-index: -1;
+  transform: rotate(-1deg);
+}
+
+.ellipse-1 {
+  position: relative;
+  top: 155px;
+  left: 515px;
+  z-index: -1;
+}
